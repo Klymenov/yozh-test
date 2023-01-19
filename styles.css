@@ -1,0 +1,121 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --main-font: 'Mitr', sans-serif;
+    --main-font-color: rgb(6, 6, 6);
+    --secondary-font-color: rgb(71, 72, 86);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+body {
+    font-family: var(--main-font);
+    font-weight: 400;
+    margin: 0;
+    background-color: rgb(112, 109, 109);
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+img {
+    display: block;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.fees-claiming {
+    margin: 0 auto;
+    margin-top: 100px;
+    display: block;
+    width: 800px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border: 1px solid rgb(166, 167, 176);
+}
+
+.fees-claiming_form {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fees-form_claim {
+    padding: 15px;
+    padding-top: 0px;
+    width: 250px;
+}
+
+.fees-type {
+    color: var(--main-font-color);
+    font-size: 28px;
+}
+
+.claim-fees_button {
+    border: 0;
+    width: 220px;
+    height: 65px;
+    border-radius: 25px;
+    background-color: rgb(201, 21 ,92);
+    color: white;
+    font-size: 34px;
+}
+.fees-value {
+    font-size: 65px;
+    display: block;
+    color: rgb(43, 104, 47);
+}
+.currency-list {
+    display: block;
+    padding: 15px;
+    margin: 0px 45px;
+    background-color: rgb(241, 241, 241);
+    color: var(--secondary-font-color);
+    font-size: 24px;
+    border-radius: 20px;
+}
+.currency-list_element_2{
+    margin-top: 25px;
+}
+.currency-element_list { 
+    justify-content: space-between;
+    display: flex;
+}
+
+.currency-name_list {
+    display: flex;
+}
+
+
+.currency-element__list-item {
+    padding: 5px;
+}
+
+.currency-icon-img {
+    padding-top: 5px;
+}
